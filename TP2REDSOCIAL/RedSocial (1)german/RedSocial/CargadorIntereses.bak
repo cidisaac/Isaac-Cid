@@ -1,0 +1,28 @@
+program CargadorIntereses;
+uses
+        usuarios,crt;
+
+var
+        aIntereses: taIntereses;
+        rInteres : trInteres;
+begin
+        ClrScr;
+        //assign (aIntereses,RutaIntereses);
+        //{$I-}
+        //reset(aIntereses);
+        //{$I+}
+        //if (IOResult <> 0) then rewrite(aIntereses);
+        //rInteres.IDinteres := 1;
+        //rInteres.descripcion := 'fotografia';
+        //write(aIntereses,rInteres);
+       // close (aIntereses);
+        assign (aIntereses,RutaIntereses);
+        {$I-}
+        reset(aIntereses);
+        {$I+}
+        read(aIntereses,rInteres);
+        writeln (rInteres.descripcion);
+        close (aIntereses);
+        readkey
+end.
+

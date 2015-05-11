@@ -1,0 +1,51 @@
+const
+    //Codigos de cada opcion por pantalla
+    OpcionVolver = 0;
+    OpcionPublicarPens = 1;
+    OpcionListaPens = 2;
+
+    //Cantidad de opciones por pantalla
+    MaxOpcionMisPens = 2;
+    MinOpcion = 0;
+
+{------------------------------------------------}
+
+
+//Escribe el titulo de las pantallas
+procedure cabeceraPantalla(titulo:string);
+begin
+    clrscr;
+    writeln(titulo);
+    writeln;
+end;
+
+{------------------------------------------------}
+
+//Muestra la pantalla Mis Pensamientos
+procedure pantallaMisPens;
+begin
+    cabeceraPantalla('Mis pensamientos');
+    publicarOpcion(OpcionVolver,'Volver');
+    publicarOpcion(OpcionPublicarPens,'Publicar un pensamiento libre');
+    publicarOpcion(OpcionListaPens,'Ver listado de sus ultimos pensamientos');
+end;
+
+{------------------------------------------------}
+
+//Obtiene la opcion deseada del menu Mis Pensamientos
+procedure MisPensamientos(var aUsuarios:taUsuarios; var aPens:taPens; var aResp:taResp; IDusuarioActual:tIDUsuario);
+var
+    opcion:topcion;
+    error:tError;
+begin
+    repeat
+        pantallaMisPens;
+        ingresarOpcion(opcion, MinOpcion, MaxOpcionMisPens, error)
+    until (error = 0);
+
+    case opcion of
+        //OpcionVolver: MenuPrincipal;
+        OpcionPublicarPens: PublicarPens(aUsuarios,aPens,aResp,IDUsuarioActual);
+        OpcionListaPens: ListaPens(aUsuarios,aPens,aResp,IDUsuarioActual)
+    end
+end;

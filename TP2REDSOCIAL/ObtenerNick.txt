@@ -1,0 +1,10 @@
+function ObtenerNick(ID:tIDUsuario;var aUsuarios:taUsuarios):tnickname;
+var
+    usuario : trUsuario;
+begin
+    reset(aUsuarios);
+    seek(aUsuarios,ID);
+    read(aUsuarios,usuario);
+    ObtenerNick := usuario.nickname;
+    close(aUsuarios);
+end;
