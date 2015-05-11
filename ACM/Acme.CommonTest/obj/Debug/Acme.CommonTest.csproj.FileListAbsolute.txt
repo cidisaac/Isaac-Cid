@@ -1,0 +1,9 @@
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\bin\Debug\Acme.CommonTest.dll
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\bin\Debug\Acme.CommonTest.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\bin\Debug\Acme.Common.dll
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\bin\Debug\Acme.Common.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\obj\Debug\Acme.CommonTest.csprojResolveAssemblyReference.cache
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\obj\Debug\Acme.CommonTest.dll
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\obj\Debug\Acme.CommonTest.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\bin\Debug\ACM.BL.dll
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.CommonTest\bin\Debug\ACM.BL.pdb

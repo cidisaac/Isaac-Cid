@@ -1,0 +1,5 @@
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.Common\bin\Debug\Acme.Common.dll
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.Common\bin\Debug\Acme.Common.pdb
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.Common\obj\Debug\Acme.Common.csprojResolveAssemblyReference.cache
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.Common\obj\Debug\Acme.Common.dll
+C:\Users\Isaac\Documents\Visual Studio 2013\Projects\ACM\Acme.Common\obj\Debug\Acme.Common.pdb
